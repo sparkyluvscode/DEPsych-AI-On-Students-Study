@@ -1,0 +1,61 @@
+================================================================================
+FINAL ANALYSIS RESULTS - v4_data.csv (N=246)
+================================================================================
+Analysis Date: December 2025
+Dataset: v4_data.csv (final locked-in dataset)
+
+================================================================================
+[RESULTS_FOR_CHATGPT]
+================================================================================
+
+N_final = 246
+
+Reliability:
+  • AI_USE_SCORE: alpha = 0.888
+  • CREATIVITY_GENERAL: alpha = 0.689
+  • AUTHORSHIP_SCORE: alpha = 0.738
+
+Descriptives (v4):
+  • AI_USE_SCORE: M = 2.464, SD = 1.057, min = 1.000, max = 5.000
+  • CREATIVITY_GENERAL: M = 3.766, SD = 0.836, min = 1.000, max = 5.000
+  • AUTHORSHIP_SCORE: M = 2.849, SD = 1.001, min = 1.000, max = 5.000
+
+Correlations (v4):
+  • r(AI_USE, CREATIVITY_GENERAL) = -0.309, p = 0.0000
+  • r(AI_USE, AUTHORSHIP_SCORE) = 0.438, p = 0.0000
+  • r(CREATIVITY_GENERAL, AUTHORSHIP_SCORE) = -0.207, p = 0.0011
+
+Regression Model A (Outcome: CREATIVITY_GENERAL):
+  • N = 245 (1 case excluded due to missing covariates)
+  • R2 = 0.255
+  • AI_USE_SCORE: B = -0.216, SE = 0.046, p = 0.0000
+
+Regression Model B (Outcome: AUTHORSHIP_SCORE):
+  • N = 245 (1 case excluded due to missing covariates)
+  • R2 = 0.223
+  • AI_USE_SCORE: B = 0.406, SE = 0.057, p = 0.0000
+
+Regression Model C (Moderation: Outcome = AUTHORSHIP_SCORE):
+  • N = 245 (1 case excluded due to missing covariates)
+  • R2 = 0.224
+  • Interaction (AI_USE * writing_ability_num): B = -0.026, SE = 0.056, p = 0.6423
+
+Cluster Profiles:
+  • Cluster 0: N = 70, AI_USE = 2.874, Creativity = 4.224, Authorship = 3.357
+  • Cluster 1: N = 84, AI_USE = 3.131, Creativity = 3.024, Authorship = 3.405
+  • Cluster 2: N = 91, AI_USE = 1.532, Creativity = 4.088, Authorship = 1.942
+
+Exported files:
+  • data/ai_psych_final_v4_clean.csv
+  • tables/table1_descriptives_reliability.csv
+  • tables/table2_correlation_matrix.csv
+  • tables/table3_regression_summary.csv
+  • tables/regression_results.json
+  • tables/table4_cluster_profiles.csv
+  • figures/histograms_main_variables.png
+  • figures/scatterplots_main_relationships.png
+
+================================================================================
+[/RESULTS_FOR_CHATGPT]
+================================================================================
+

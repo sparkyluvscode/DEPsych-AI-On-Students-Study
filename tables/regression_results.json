@@ -1,0 +1,29 @@
+{
+  "model_a": {
+    "model_name": "Model A",
+    "outcome_name": "CREATIVITY_GENERAL",
+    "N": 245,
+    "R2": 0.2545812930391189,
+    "AI_USE_SCORE_B": -0.21606362434352966,
+    "AI_USE_SCORE_SE": 0.0464574386027128,
+    "AI_USE_SCORE_p": 5.4973035942455675e-06
+  },
+  "model_b": {
+    "model_name": "Model B",
+    "outcome_name": "AUTHORSHIP_SCORE",
+    "N": 245,
+    "R2": 0.2230700743088856,
+    "AI_USE_SCORE_B": 0.40632717800558016,
+    "AI_USE_SCORE_SE": 0.05694745119856655,
+    "AI_USE_SCORE_p": 1.1695047018108725e-11
+  },
+  "model_c": {
+    "model_name": "Model C",
+    "outcome_name": "AUTHORSHIP_SCORE",
+    "N": 245,
+    "R2": 0.22378153951589907,
+    "interaction_B": -0.025911215143818805,
+    "interaction_SE": 0.0557117664943459,
+    "interaction_p": 0.6422929047823227
+  }
+}
